@@ -1,25 +1,80 @@
+:root{
+
+    margin:20px;
+    box-sizing: border-box;
+    --crimson:#e00d0d;
+    --night:#000000;    
+    --cottom:#ffffff;
+    --font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color:var(--night)
+}
+
+img{
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 600px;
+}
+
+
 header{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: navy;
+    color:var(--crimson);
     font-weight: 10px;
-    display: inline-block;
+    display: flex;
+    justify-content: left;
 
 }
 
+.nav-card{ 
+    color:var(--night);
+    text-decoration: underline;
+    display:flex;
+    flex-direction: row;    
+    justify-content:space-evenly; 
+    min-width: 33rem;
+    padding: 0;
+    margin-top: 2rem;
+    list-style-type: none;
+    text-decoration-line: underline;
+    
+}
+
 p{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--crimson);
     font-size: 20px;
-    display: inline-block;
+    
 
 }
 
 #Content{ 
-    color: navy;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
     font-size: 25px;
+    float:none;
+    border-style:groove
+    
 
 }
 
 a{
+    color:var(--crimson);
     
+
+} 
+
+#imgContainer1{
+
+}
+
+.card{
+    display:flex;
+    justify-content: space-evenly;
+    
+
+}
+
+h2{ 
+    color:var(--crimson)
+
 }
